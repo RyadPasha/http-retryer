@@ -1,0 +1,44 @@
+# @author Mohamed Riyad <m@ryad.me> ##
+## Let's ignore some unwanted files ##
+######################################
+
+# Dependency directories
+/node_modules
+/package-lock.json
+
+# Build output
+/dist
+
+# Environment variables
+*.env
+*.env.*
+*.env-*
+!*.env.example
+
+# Logs
+/logs
+*.log
+
+# IDE files
+/.idea
+/.vscode
+
+# Editor configuration
+/.prettierrc.json
+.prettierignore
+
+# Nodemon configuration
+/nodemon.json
+
+# Mac OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database files
+*.sql
+*.sqlite
